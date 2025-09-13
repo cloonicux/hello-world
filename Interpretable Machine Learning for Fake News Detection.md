@@ -1,5 +1,5 @@
 # Interpretable Machine learning for fake news detection 
-This project delivers a complete, end-to-end solution for detecting fake news by leveraging a powerful machine learning pipeline. Using the substantial WELFake dataset, which contains over 72,000 news articles, the project first applies rigorous natural language processing techniques—including tokenization, stemming, and lemmatization—to transform raw text into clean, analyzable data.
+This project delivers a complete, end-to-end solution for detecting fake news by leveraging a powerful machine learning pipeline. Using the substantial WELFake dataset, which contains over 72,000 news articles, the project first applies rigorous natural language processing techniques, including tokenization, stemming, and lemmatization to transform raw text into clean, analyzable data.
 
 Several models were evaluated to find the most effective classifier for this task. The project tested a high-performance XGBoost model, a transparent Decision Tree, and a baseline Naive Bayes classifier. The models' performances were measured by their accuracy in distinguishing real from fake news, with XGBoost achieving the highest accuracy at 97%, followed by the Decision Tree at a respectable 93%, and Naive Bayes at 88%.
 
